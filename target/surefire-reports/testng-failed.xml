@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="runner.SearchManyFeature"/>
+      <class name="runner.SearchOutlineFeature"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="runner.SearchManyFeature">
+        <methods>
+          <include name="runCukes"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- runner.SearchManyFeature -->
+      <class name="runner.SearchOutlineFeature">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- runner.SearchOutlineFeature -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

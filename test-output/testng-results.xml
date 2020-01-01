@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20020" started-at="2020-01-01T11:50:28Z" finished-at="2020-01-01T11:50:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20020" started-at="2020-01-01T11:50:28Z" finished-at="2020-01-01T11:50:48Z">
+      <class name="runner.SearchManyFeature">
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.SearchManyFeature@add0edd]" name="setup" is-config="true" duration-ms="176" started-at="2020-01-01T17:20:28Z" finished-at="2020-01-01T17:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runCukes()[pri:0, instance:runner.SearchManyFeature@add0edd]" name="runCukes" duration-ms="19480" started-at="2020-01-01T17:20:28Z" finished-at="2020-01-01T17:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- runner.SearchManyFeature -->
+      <class name="runner.SearchOutlineFeature">
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.SearchOutlineFeature@2aa3cd93]" name="setup" is-config="true" duration-ms="176" started-at="2020-01-01T17:20:28Z" finished-at="2020-01-01T17:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runCuckes()[pri:0, instance:runner.SearchOutlineFeature@2aa3cd93]" name="runCuckes" duration-ms="19832" started-at="2020-01-01T17:20:28Z" finished-at="2020-01-01T17:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCuckes -->
+      </class> <!-- runner.SearchOutlineFeature -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
